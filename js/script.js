@@ -2,6 +2,7 @@
 
 let img = document.getElementsByTagName('img');
 let li = document.getElementsByTagName('li');
+//let liHere = document.querySelectorAll('li.bold');
 
 function changeImg1() {
 	let imgHere = document.querySelector('img:not(.displayNone)');
@@ -13,10 +14,12 @@ function changeImg1() {
 
 function changeImg2() {
 	let imgHere = document.querySelector('img:not(.displayNone)');
-	console.log(imgHere);
+	//console.log(imgHere);
 	imgHere.classList.add("displayNone");
 	img[1].classList.remove("displayNone");
-
+//	let liHere = document.querySelector('li.bold');
+//	li[1].classList.add("bold");
+//	liHere.classList.remove("bold");
 }
 
 function changeImg3() {
