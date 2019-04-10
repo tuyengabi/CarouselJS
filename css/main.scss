@@ -43,9 +43,15 @@ main {
 //	position: absolute;
 	width: 100%;
 	height: 20%;
-	color: rgba(255,255,255,0.6);
+	color: rgba(255,255,255,0.4);
 }
 
 .displayNone {
 	display: none;
+}
+
+.bold {
+	color: rgba(255,255,255,1);
+	font-size: 1em;
+	text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.2em black;
 }
