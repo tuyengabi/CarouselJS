@@ -44,8 +44,8 @@ main {
   display: none; }
 
 .bold {
-  color: black;
-  font-size: 1.7vw;
-  text-shadow: 1px 1px 1px white, 0 0 1em white, 0 0 0.2em white; }
+  color: white;
+  font-size: 1.6vw;
+  text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.2em black; }
 
 /*# sourceMappingURL=style.css.map */
