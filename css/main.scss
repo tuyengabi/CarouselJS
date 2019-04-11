@@ -36,6 +36,7 @@ main {
 }
 
 .li__list {
+  font-size: 1.5vw;
 	display: inline-block;
 	object-fit: cover;
 	padding: 6%;
@@ -43,7 +44,7 @@ main {
 //	position: absolute;
 	width: 100%;
 	height: 20%;
-	color: rgba(255,255,255,0.3);
+	color: rgba(255,255,255,0.5);
 }
 
 .displayNone {
@@ -51,7 +52,7 @@ main {
 }
 
 .bold {
-	color: rgba(255,255,255,1);
-	font-size: 1em;
-	text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.2em black;
+	color: rgba(0,0,0,1);
+	font-size: 1.7vw;
+	text-shadow: 1px 1px 1px white, 0 0 1em white, 0 0 0.2em white;
 }
